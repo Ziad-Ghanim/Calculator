@@ -48,6 +48,6 @@ class DataCalculator:
 if __name__ == '__main__' :
     calc = DataCalculator()
     print(calc.divide(12,1))
-    data = calc.load_data_from_csv("C:/Users/Dream/test_project/data.csv")
+    data = calc.load_data_from_csv("data.csv")
     print(data.mean())
 
